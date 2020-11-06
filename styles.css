@@ -5,7 +5,7 @@
 }
 
 body {
-    background: lightgray;
+    background: rgb(245, 215, 84);
     font-family: sans-serif;
 }
 
@@ -40,8 +40,8 @@ body {
 }
 
 .nav-link:hover {
-    text-shadow: 1px 1px grey;
-    color: rgba(241, 241, 3, 0.856);
+    text-shadow: 1px 1px black;
+    color: orangered;
     transition: all 0.4s ease-in-out;
 }
 
@@ -73,7 +73,7 @@ input {
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 800;
-    background: rgb(131, 216, 168);
+    background: rgb(219, 16, 43);
     color: white;
     outline: none;
     border: none;
@@ -123,7 +123,8 @@ iframe {
 }
 
 #pricing h3 {
-    background-color: darkgrey;
+    background-color: rgb(219, 16, 43);
+    color: seashell;
     margin: 0 0 10px 0;
     padding: 20px;
     font-weight: lighter;
@@ -147,7 +148,8 @@ iframe {
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: 200;
-    background: orangered;
+    background: rgb(219, 16, 43);
+    color: whitesmoke;
     outline: none;
     border: none;
     margin-bottom: 20px;
@@ -172,6 +174,19 @@ p {
 }
 
 @media (max-width: 750px) {
+    input {
+        width: 250px;
+        padding: 5px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+    #form button {
+        width: 150px;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 5px;
+    }
     #pricing {
         display: flex;
         flex-direction: column;
